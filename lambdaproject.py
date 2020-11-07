@@ -86,7 +86,7 @@ if howManyNums == "3":
             
         num2 = float(input("enter your second numebr: ")) #second number
 
-        operatorChoice2 = input("second operator: ")
+        operatorChoice2 = input("second operator: ") #second operator
 
         num3 = float(input("enter your third numebr: ")) #third number
 
@@ -139,7 +139,7 @@ if howManyNums == "2":
 
         operatorChoice = input("Enter your operator: ") #operator choice
 
-        num2 = float(input("enter your second numebr: ")) #second number
+        num2 = float(input("enter your second number: ")) #second number
 
         if operatorChoice == "+":
             print(num1, "+", num2, "=", add(num1, num2))   
